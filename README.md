@@ -1,6 +1,6 @@
 # Show how annotations can be used to validate POJO fields
 
-These are NOT ideal examples of annotations; they are intended to show how simple it can be to validate all fields in a POJO by annotating them to tell the validator what data are expected in each field as in @USSSN for an American social security number or @CANZIP for a Canadian zip code.
+These are NOT ideal examples of annotations; they are intended to show how simple it can be to validate all fields in a POJO by annotating them to tell the validator what data are expected in each field as in @USSSN for an American social security number or @CANZIP for a Canadian zip code.  This effectively creates user-defined data types.
 
 Batch jobs need to validate input and web apps SHOULD validate data read from disk or uploaded CSV or Excel objects.  All the word's a POJO, so validation should focus on POJOs without requiring anything else.
  
